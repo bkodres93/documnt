@@ -1,6 +1,6 @@
 body {
     color: #9D9D9D;
-    background: url('../img/documnt.jpg');
+    background: url('../img/documnt.png');
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
@@ -24,9 +24,31 @@ h1.bot {
     padding-left: 7px;
     font-weight: 400;
 }
+p {
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+    color: black;
+    font-weight: 600;
+    white-space: pre;
+    margin: 0;
+    line-height: 1.1;
+    transform:scale(1,1.1); 
+    -webkit-transform:scale(1,1.1);
+}
+
+a {
+    font-style: normal;
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #9D9D9D;
+}
+
 .row {
     margin: 0 auto;
     border: 0;
+    max-width: 100%;
 }
 .logo {
     float: right;
@@ -35,13 +57,17 @@ h1.bot {
 }
 
 .navbar {
-    float:right;
-    margin: 40px;
+    margin-top: 180px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: right;
 }
 .navbar > h3 {
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     display:inline-block;
     margin-right: 15px;
     margin-left: 15px;
@@ -49,14 +75,18 @@ h1.bot {
     transform:scale(1,1.1); 
     -webkit-transform:scale(1,1.1);
 }
-a {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
-    color: #9D9D9D;
+
+.content-box {
+    float:right;
+    background-color: white;
+    min-width: 600px;
+    min-height: 900px;
 }
 
+.content-text {
+    margin: 10%;
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+}
 
 
 
