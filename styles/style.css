@@ -47,7 +47,7 @@ a:hover {
 }
 .spacer {
     width: 100%;
-    height: 150px;
+    height: 140px;
 }
 .row {
     margin: 0 auto;
@@ -61,10 +61,10 @@ a:hover {
 }
 
 .navbar {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     float: right;
 }
 .navbar > h3 {
@@ -88,7 +88,9 @@ a:hover {
 }
 
 .content-text {
-    margin: 10%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 5%;
     font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
 }
 
