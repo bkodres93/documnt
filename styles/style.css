@@ -1,25 +1,60 @@
 body {
-    color: #222;
-    background: #f9f9f8;
+    color: #9D9D9D;
+    background: url('../img/documnt.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+
 }
 h1 {
-    font-family: 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
-    font-weight: bold;
-    padding-top: 12px;
-    font-size: 32px;
-    margin-bottom: 25px;
-    color: #3b3b3b;
-    text-align: left;
-    line-height: 1.4;
-    font-size: 32px;
     font-style: normal;
+    font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+    color: #9D9D9D;
+    font-size: 24px;
+    transform:scale(1,1.1); 
+    -webkit-transform:scale(1,1.1);
+    letter-spacing: 1px;
+}
+h1.top {
+    font-weight: 600;
+    margin-bottom: -18px;
+}
+h1.bot {
+    margin-top: -18px;
+    padding-left: 7px;
+    font-weight: 400;
 }
 .row {
     margin: 0 auto;
     border: 0;
 }
-.top-of {
-    margin-top: 100px;
+.logo {
+    float: right;
+    margin-right: 22%;
+    margin-top: 5.5%;
+}
+
+.navbar {
+    float:right;
+    margin: 40px;
+}
+.navbar > h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display:inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    transform:scale(1,1.1); 
+    -webkit-transform:scale(1,1.1);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #9D9D9D;
 }
 
 
@@ -28,6 +63,21 @@ h1 {
 
 
 /* FONTS!!!!!! */
+@font-face {
+    font-family: 'DIN Alternate Regular';
+    src: url('../fonts/DIN\ Alternate\ Regular.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Alternate Bold';
+    src: url('../fonts/DIN\ Alternate\ Bold.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN Alternate Medium';
+    src: url('../fonts/DIN\ Alternate\ Medium.otf');
+    font-style: normal;
+}
 
 @font-face {
   font-family: "Proxima Nova";
