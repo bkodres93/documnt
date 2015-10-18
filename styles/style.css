@@ -1,6 +1,5 @@
 body {
     color: #9D9D9D;
-    background: url('../img/documnt.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -27,6 +26,7 @@ h1.bot {
 }
 p {
     font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
+    font-size: 12px;
     color: black;
     font-weight: 600;
     white-space: pre;
@@ -74,7 +74,7 @@ a:hover {
 
 .navbar > h3 {
     font-family: 'DIN Alternate Medium', 'Proxima Nova','Proxima-nova', Helvetica, Verdana, Arial, Sans-Serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     display:inline-block;
@@ -93,11 +93,12 @@ a:hover {
 .content-box {
     float:right;
     background-color: white;
-    min-width: 600px;
+    min-width: 500px;
     min-height: 900px;
 }
 
 .content-text {
+    font-size: 12px;
     margin-top: 15%;
     margin-left: 10%;
     margin-right: 5%;
